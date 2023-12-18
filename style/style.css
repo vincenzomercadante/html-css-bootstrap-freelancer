@@ -22,11 +22,14 @@
 }
 
 #main .container{
+    /* debug */
     background-color: burlywood;
     min-height: 400px;
 }
 
 #main .card{
+    /* debug */
     background-color: cadetblue;
     aspect-ratio: 1;
 }
+ 
