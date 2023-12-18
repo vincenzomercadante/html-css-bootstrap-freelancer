@@ -4,3 +4,16 @@
     --odd-section-bg: #1abc9c;
     --pre-footer-bg: #3a546d;
 }
+
+/* ! HEADER */
+#header{
+    min-height: 80px;
+    background-color: var(--header-footer-bg);
+}
+
+#header> .container> *{
+    background-color: aquamarine;
+}
+
+/* ! MAIN */
+
