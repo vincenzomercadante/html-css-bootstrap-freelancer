@@ -35,10 +35,30 @@
 
 /* ? contact me */
 #contact-me .col-10 .card{
-    height: 50px;
+    /* debug */
+    min-height: 100px;
 }
 
 #contact-me .col-10:nth-of-type(4) .card{
-    height: 300px;
+    /* debug */
+    min-height: 250px;
 }
  
+/* ! footer */
+
+/* ? footer-info */
+#footer .footer_info{
+    background-color: var(--pre-footer-bg);
+}
+
+.footer_info .card{
+    /* debug */
+    background-color:chocolate;
+    height: 200px;
+}
+
+/* ? footer-copyright */
+#footer .footer_copyright{
+    background-color: var(--header-footer-bg);
+    color: white;
+}
