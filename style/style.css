@@ -5,6 +5,7 @@
     --pre-footer-bg: #3a546d;
 }
 
+
 /* ! HEADER */
 #header{
     min-height: 80px;
@@ -20,8 +21,12 @@
     background-color: #1abc9c;
 }
 
-/* ? hero */
-#hero .container{
+#main .container{
     background-color: burlywood;
     min-height: 400px;
+}
+
+#main .card{
+    background-color: cadetblue;
+    aspect-ratio: 1;
 }
