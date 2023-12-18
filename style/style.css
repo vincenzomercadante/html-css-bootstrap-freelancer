@@ -16,4 +16,12 @@
 }
 
 /* ! MAIN */
+#main section:nth-last-of-type(even){
+    background-color: #1abc9c;
+}
 
+/* ? hero */
+#hero .container{
+    background-color: burlywood;
+    min-height: 400px;
+}
