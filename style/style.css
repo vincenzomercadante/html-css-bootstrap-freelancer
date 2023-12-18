@@ -30,6 +30,15 @@
 #main .card{
     /* debug */
     background-color: cadetblue;
-    aspect-ratio: 1;
+    min-height: 200px;
+}
+
+/* ? contact me */
+#contact-me .col-10 .card{
+    height: 50px;
+}
+
+#contact-me .col-10:nth-of-type(4) .card{
+    height: 300px;
 }
  
