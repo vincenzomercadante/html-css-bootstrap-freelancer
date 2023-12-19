@@ -43,7 +43,6 @@ a{
     width: 15%;
 }
 
-
 /* ? ABOUT */
 #about .btn-secondary{
     background-color: transparent;
@@ -54,18 +53,23 @@ a{
     color: #2c3e50;
 }
 
-
 /* ! footer */
+#footer{
+    color: white;
+}
 
 /* ? footer-info */
 #footer .footer_info{
     background-color: var(--pre-footer-bg);
 }
 
-.footer_info .card{
-    /* debug */
-    background-color:chocolate;
-    height: 200px;
+.social-icon{
+    width: 60px;
+    aspect-ratio: 1;
+}
+
+#footer .brand{
+    color: var(--odd-section-bg);
 }
 
 /* ? footer-copyright */
@@ -73,3 +77,4 @@ a{
     background-color: var(--header-footer-bg);
     color: white;
 }
+
