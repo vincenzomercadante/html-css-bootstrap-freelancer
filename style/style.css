@@ -23,8 +23,12 @@ a{
 #header{
     line-height: 70px;
     background-color: var(--header-footer-bg);
-    color: white;
     font-weight: bold;
+}
+
+#header .nav-title,
+#header .nav-link{
+    color: white;
 }
 
 /* ! MAIN */
@@ -51,6 +55,10 @@ a{
 /* ? contact me */
 #contact-me .col-10 ::placeholder{
     color: #2c3e50;
+}
+
+#contact-me .send_button{
+    background-color: var(--odd-section-bg);
 }
 
 /* ! footer */
