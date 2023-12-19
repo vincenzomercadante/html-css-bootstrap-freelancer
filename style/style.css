@@ -16,6 +16,7 @@ ul{
 
 a{
     color: inherit;
+    text-decoration: none;
 }
 
 /* ! HEADER */
@@ -31,10 +32,19 @@ a{
     background-color: #1abc9c;
 }
 
-#main .container{
-    /* debug */
-    background-color: burlywood;
-    min-height: 400px;
+/* ? hero */
+#hero{
+    color: white;
+}
+
+h1{
+    font-weight: bold;
+}
+
+#hero .line{
+    background-color: white;
+    height: 5px;
+    width: 15%;
 }
 
 #main .card{
