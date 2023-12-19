@@ -37,31 +37,24 @@ a{
     color: #2c3e50;
 }
 
-/* ? hero */
-
 #main .line{
     background-color: currentColor;
     height: 5px;
     width: 15%;
 }
 
-#main .card{
-    /* debug */
-    background-color: cadetblue;
-    min-height: 200px;
+
+/* ? ABOUT */
+#about .btn-secondary{
+    background-color: transparent;
 }
 
 /* ? contact me */
-#contact-me .col-10 .card{
-    /* debug */
-    min-height: 100px;
+#contact-me .col-10 ::placeholder{
+    color: #2c3e50;
 }
 
-#contact-me .col-10:nth-of-type(4) .card{
-    /* debug */
-    min-height: 250px;
-}
- 
+
 /* ! footer */
 
 /* ? footer-info */

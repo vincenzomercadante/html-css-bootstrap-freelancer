@@ -134,8 +134,8 @@
                 <!-- container sezione -->
                 <div class="container py-3">
                     <!-- area titolo -->
-                    <div class="title-container text-center mb-5 ">
-                        <h2 class="fw-bold mb-3">ABOUT</h2>
+                    <div class="title-container text-center mb-5">
+                        <h2 class="fw-bold mb-3 text-uppercase">about</h2>
                         <div class="divider d-flex justify-content-center align-items-center">
                             <div class="line"></div>
                             <i class="fa-solid fa-star fa-2x mx-4"></i>
@@ -145,55 +145,63 @@
                     <!-- contenitore cards -->
                     <div class="row flex-wrap justify-content-center gy-3">
                         <!-- contenitore card -->
-                        <div class="col-md-5">
+                        <div class="col-10 col-md-5">
                             <!-- card -->
-                            <div class="card">
-                                <p class="text-left">
+                            <div class="text-container">
+                                <p class="text-left fs-5">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum esse, rerum velit molestias, repellendus ipsam, dignissimos dolor nostrum veritatis minima expedita. Nesciunt quos nisi cupiditate quo repudiandae exercitationem qui.
                                 </p>
                             </div>
                         </div>
                         <!-- contenitore card -->
-                        <div class="col-md-5">
+                        <div class="col-10 col-md-5 ">
                             <!-- card -->
-                            <div class="card"></div>
+                            <div class="text-container">
+                                <p class="text-left fs-5">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel illum esse, rerum velit molestias, repellendus ipsam, dignissimos dolor nostrum veritatis minima expedita. Nesciunt quos nisi cupiditate quo repudiandae exercitationem qui.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-10 col-md-5 ">
+                            <!-- card -->
+                            <div class="text-container text-center">
+                                <button class="btn mt-3 px-3 fs-4 btn-secondary border-light"><i class="fa-solid fa-download"></i> Download</button>
+                            </div>
                         </div>
                     </div>
                     <!-- bottone -->
-                    <button class="btn mt-3 px-3 btn-secondary">BOTTONE</button>
                 </div>
             </section>
             <!-- sezione contact-me-->
             <section id="contact-me" class="py-5">
                 <div class="container py-3">
                     <!-- area titolo -->
-                    <div class="title-container text-center mb-5">TESTO TESTO TESTO</div>
+                    <div class="title-container text-center mb-5">
+                        <h2 class="fw-bold mb-3 text-uppercase">contact me</h2>
+                        <div class="divider d-flex justify-content-center align-items-center">
+                            <div class="line"></div>
+                            <i class="fa-solid fa-star fa-2x mx-4"></i>
+                            <div class="line"></div>
+                        </div>
+                    </div>
                     <!-- contenitore cards -->
                     <div class="row gy-3 flex-column align-items-center">
-                        <!-- contenitore Name -->
+                        <!-- contenitore Form -->
                         <div class="col-10">
-                            <!-- name -->
-                            <div class="card"></div>
-                        </div>
-                        <!-- contenitore Email address -->
-                        <div class="col-10">
-                            <!-- email -->
-                            <div class="card"></div>
-                        </div>
-                        <!-- contenitore Phone number -->
-                        <div class="col-10">
-                            <!-- phone number -->
-                            <div class="card"></div>
-                        </div>
-                        <!-- contenitore message -->
-                        <div class="col-10">
-                            <!-- message -->
-                            <div class="card"></div>
-                        </div>
-                        <!-- contenitore bottone -->
-                        <div class="col-10">
-                            <!-- bottone -->
-                            <button class="btn btn-secondary">Send</button>
+                            <!-- form -->
+                            <form action="" method="post">
+                                <!-- nome -->
+                                <input required type="text" name="name" id="name" placeholder="Name" class="form-control fs-2 border-0 border-bottom mb-3">
+                                <!-- email -->
+                                <input required type="email" name="email" id="email" placeholder="Email Address" class="form-control form-control fs-2 border-0 border-bottom mb-3">
+                                <!-- numero telefonico -->
+                                <input required type="tel" name="phone" id="phone" placeholder="Phone Number" class="form-control form-control fs-2 border-0 border-bottom mb-3">
+                                <!-- message -->
+                                <textarea required class="orm-control form-control fs-2 border-0 border-bottom mb-3" placeholder="Message" rows="10" name="message" id="message"></textarea>
+                                <!-- buttons -->
+                                <button class="btn btn-primary py-2 px-3 fs-4">Send</button>
+                                <input type="reset" value="Reset" class="btn btn-warning py-2 px-3 fs-4">
+                            </form>
                         </div>
                     </div>
                 </div>
