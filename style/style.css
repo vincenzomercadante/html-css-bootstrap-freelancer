@@ -5,15 +5,25 @@
     --pre-footer-bg: #3a546d;
 }
 
+/* generics */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    color: inherit;
+}
 
 /* ! HEADER */
 #header{
-    min-height: 80px;
+    line-height: 70px;
     background-color: var(--header-footer-bg);
-}
-
-#header> .container> *{
-    background-color: aquamarine;
+    color: white;
+    font-weight: bold;
 }
 
 /* ! MAIN */
