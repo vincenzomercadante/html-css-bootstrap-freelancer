@@ -30,19 +30,17 @@ a{
 /* ! MAIN */
 #main section:nth-last-of-type(even){
     background-color: #1abc9c;
-}
-
-/* ? hero */
-#hero{
     color: white;
 }
 
-h1{
-    font-weight: bold;
+#main section:nth-last-of-type(odd){
+    color: #2c3e50;
 }
 
-#hero .line{
-    background-color: white;
+/* ? hero */
+
+#main .line{
+    background-color: currentColor;
     height: 5px;
     width: 15%;
 }
